@@ -1,0 +1,173 @@
+[24-May-2020 19:44:05 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Dompdf.php on line 600
+[24-May-2020 19:44:05 UTC] PHP Stack trace:
+[24-May-2020 19:44:05 UTC] PHP   1. {main}() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/post.php:0
+[24-May-2020 19:44:05 UTC] PHP   2. edit_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/post.php:227
+[24-May-2020 19:44:05 UTC] PHP   3. wp_update_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/includes/post.php:409
+[24-May-2020 19:44:05 UTC] PHP   4. wp_insert_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/post.php:4244
+[24-May-2020 19:44:05 UTC] PHP   5. do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/post.php:4153
+[24-May-2020 19:44:05 UTC] PHP   6. WP_Hook->do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/plugin.php:478
+[24-May-2020 19:44:05 UTC] PHP   7. WP_Hook->apply_filters() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:311
+[24-May-2020 19:44:05 UTC] PHP   8. WC_PDF_Product_Vouchers_Admin_Vouchers->save() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:289
+[24-May-2020 19:44:05 UTC] PHP   9. do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/admin/class-wc-pdf-product-vouchers-admin-vouchers.php:136
+[24-May-2020 19:44:05 UTC] PHP  10. WP_Hook->do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/plugin.php:478
+[24-May-2020 19:44:05 UTC] PHP  11. WP_Hook->apply_filters() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:311
+[24-May-2020 19:44:05 UTC] PHP  12. WC_PDF_Product_Vouchers_Meta_Box_Voucher_Actions->save() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:287
+[24-May-2020 19:44:05 UTC] PHP  13. WC_Voucher->generate_pdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:226
+[24-May-2020 19:44:05 UTC] PHP  14. WC_PDF_Product_Vouchers_PDF_Generator::generate_voucher_pdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-voucher.php:2193
+[24-May-2020 19:44:05 UTC] PHP  15. WC_PDF_Product_Vouchers_PDF_Generator::load_dompdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-pdf-product-vouchers-pdf-generator.php:88
+[24-May-2020 19:44:05 UTC] PHP  16. spl_autoload_call() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-pdf-product-vouchers-pdf-generator.php:50
+[24-May-2020 19:44:05 UTC] PHP  17. Dompdf\Autoloader::autoload() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-pdf-product-vouchers-pdf-generator.php:50
+[24-May-2020 19:44:05 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Dompdf.php on line 621
+[24-May-2020 19:44:05 UTC] PHP Stack trace:
+[24-May-2020 19:44:05 UTC] PHP   1. {main}() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/post.php:0
+[24-May-2020 19:44:05 UTC] PHP   2. edit_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/post.php:227
+[24-May-2020 19:44:05 UTC] PHP   3. wp_update_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/includes/post.php:409
+[24-May-2020 19:44:05 UTC] PHP   4. wp_insert_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/post.php:4244
+[24-May-2020 19:44:05 UTC] PHP   5. do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/post.php:4153
+[24-May-2020 19:44:05 UTC] PHP   6. WP_Hook->do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/plugin.php:478
+[24-May-2020 19:44:05 UTC] PHP   7. WP_Hook->apply_filters() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:311
+[24-May-2020 19:44:05 UTC] PHP   8. WC_PDF_Product_Vouchers_Admin_Vouchers->save() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:289
+[24-May-2020 19:44:05 UTC] PHP   9. do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/admin/class-wc-pdf-product-vouchers-admin-vouchers.php:136
+[24-May-2020 19:44:05 UTC] PHP  10. WP_Hook->do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/plugin.php:478
+[24-May-2020 19:44:05 UTC] PHP  11. WP_Hook->apply_filters() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:311
+[24-May-2020 19:44:05 UTC] PHP  12. WC_PDF_Product_Vouchers_Meta_Box_Voucher_Actions->save() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:287
+[24-May-2020 19:44:05 UTC] PHP  13. WC_Voucher->generate_pdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:226
+[24-May-2020 19:44:05 UTC] PHP  14. WC_PDF_Product_Vouchers_PDF_Generator::generate_voucher_pdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-voucher.php:2193
+[24-May-2020 19:44:05 UTC] PHP  15. WC_PDF_Product_Vouchers_PDF_Generator::load_dompdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-pdf-product-vouchers-pdf-generator.php:88
+[24-May-2020 19:44:05 UTC] PHP  16. spl_autoload_call() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-pdf-product-vouchers-pdf-generator.php:50
+[24-May-2020 19:44:05 UTC] PHP  17. Dompdf\Autoloader::autoload() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-pdf-product-vouchers-pdf-generator.php:50
+[24-May-2020 19:44:05 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/lib/Cpdf.php on line 467
+[24-May-2020 19:44:05 UTC] PHP Stack trace:
+[24-May-2020 19:44:05 UTC] PHP   1. {main}() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/post.php:0
+[24-May-2020 19:44:05 UTC] PHP   2. edit_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/post.php:227
+[24-May-2020 19:44:05 UTC] PHP   3. wp_update_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/includes/post.php:409
+[24-May-2020 19:44:05 UTC] PHP   4. wp_insert_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/post.php:4244
+[24-May-2020 19:44:05 UTC] PHP   5. do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/post.php:4153
+[24-May-2020 19:44:05 UTC] PHP   6. WP_Hook->do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/plugin.php:478
+[24-May-2020 19:44:05 UTC] PHP   7. WP_Hook->apply_filters() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:311
+[24-May-2020 19:44:05 UTC] PHP   8. WC_PDF_Product_Vouchers_Admin_Vouchers->save() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:289
+[24-May-2020 19:44:05 UTC] PHP   9. do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/admin/class-wc-pdf-product-vouchers-admin-vouchers.php:136
+[24-May-2020 19:44:05 UTC] PHP  10. WP_Hook->do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/plugin.php:478
+[24-May-2020 19:44:05 UTC] PHP  11. WP_Hook->apply_filters() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:311
+[24-May-2020 19:44:05 UTC] PHP  12. WC_PDF_Product_Vouchers_Meta_Box_Voucher_Actions->save() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:287
+[24-May-2020 19:44:05 UTC] PHP  13. WC_Voucher->generate_pdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:226
+[24-May-2020 19:44:05 UTC] PHP  14. WC_PDF_Product_Vouchers_PDF_Generator::generate_voucher_pdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-voucher.php:2193
+[24-May-2020 19:44:05 UTC] PHP  15. WC_PDF_Product_Vouchers_PDF_Generator::load_dompdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-pdf-product-vouchers-pdf-generator.php:88
+[24-May-2020 19:44:05 UTC] PHP  16. Dompdf\Dompdf->__construct() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-pdf-product-vouchers-pdf-generator.php:50
+[24-May-2020 19:44:05 UTC] PHP  17. Dompdf\CanvasFactory::get_instance() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Dompdf.php:294
+[24-May-2020 19:44:05 UTC] PHP  18. Dompdf\Adapter\CPDF->__construct() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/CanvasFactory.php:57
+[24-May-2020 19:44:05 UTC] PHP  19. spl_autoload_call() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Adapter/CPDF.php:197
+[24-May-2020 19:44:05 UTC] PHP  20. Dompdf\Autoloader::autoload() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Adapter/CPDF.php:197
+[24-May-2020 19:44:05 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/lib/Cpdf.php on line 474
+[24-May-2020 19:44:05 UTC] PHP Stack trace:
+[24-May-2020 19:44:05 UTC] PHP   1. {main}() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/post.php:0
+[24-May-2020 19:44:05 UTC] PHP   2. edit_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/post.php:227
+[24-May-2020 19:44:05 UTC] PHP   3. wp_update_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/includes/post.php:409
+[24-May-2020 19:44:05 UTC] PHP   4. wp_insert_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/post.php:4244
+[24-May-2020 19:44:05 UTC] PHP   5. do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/post.php:4153
+[24-May-2020 19:44:05 UTC] PHP   6. WP_Hook->do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/plugin.php:478
+[24-May-2020 19:44:05 UTC] PHP   7. WP_Hook->apply_filters() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:311
+[24-May-2020 19:44:05 UTC] PHP   8. WC_PDF_Product_Vouchers_Admin_Vouchers->save() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:289
+[24-May-2020 19:44:05 UTC] PHP   9. do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/admin/class-wc-pdf-product-vouchers-admin-vouchers.php:136
+[24-May-2020 19:44:05 UTC] PHP  10. WP_Hook->do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/plugin.php:478
+[24-May-2020 19:44:05 UTC] PHP  11. WP_Hook->apply_filters() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:311
+[24-May-2020 19:44:05 UTC] PHP  12. WC_PDF_Product_Vouchers_Meta_Box_Voucher_Actions->save() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:287
+[24-May-2020 19:44:05 UTC] PHP  13. WC_Voucher->generate_pdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:226
+[24-May-2020 19:44:05 UTC] PHP  14. WC_PDF_Product_Vouchers_PDF_Generator::generate_voucher_pdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-voucher.php:2193
+[24-May-2020 19:44:05 UTC] PHP  15. WC_PDF_Product_Vouchers_PDF_Generator::load_dompdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-pdf-product-vouchers-pdf-generator.php:88
+[24-May-2020 19:44:05 UTC] PHP  16. Dompdf\Dompdf->__construct() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-pdf-product-vouchers-pdf-generator.php:50
+[24-May-2020 19:44:05 UTC] PHP  17. Dompdf\CanvasFactory::get_instance() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Dompdf.php:294
+[24-May-2020 19:44:05 UTC] PHP  18. Dompdf\Adapter\CPDF->__construct() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/CanvasFactory.php:57
+[24-May-2020 19:44:05 UTC] PHP  19. spl_autoload_call() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Adapter/CPDF.php:197
+[24-May-2020 19:44:05 UTC] PHP  20. Dompdf\Autoloader::autoload() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Adapter/CPDF.php:197
+[24-May-2020 19:44:05 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/lib/Cpdf.php on line 481
+[24-May-2020 19:44:05 UTC] PHP Stack trace:
+[24-May-2020 19:44:05 UTC] PHP   1. {main}() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/post.php:0
+[24-May-2020 19:44:05 UTC] PHP   2. edit_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/post.php:227
+[24-May-2020 19:44:05 UTC] PHP   3. wp_update_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/includes/post.php:409
+[24-May-2020 19:44:05 UTC] PHP   4. wp_insert_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/post.php:4244
+[24-May-2020 19:44:05 UTC] PHP   5. do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/post.php:4153
+[24-May-2020 19:44:05 UTC] PHP   6. WP_Hook->do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/plugin.php:478
+[24-May-2020 19:44:05 UTC] PHP   7. WP_Hook->apply_filters() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:311
+[24-May-2020 19:44:05 UTC] PHP   8. WC_PDF_Product_Vouchers_Admin_Vouchers->save() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:289
+[24-May-2020 19:44:05 UTC] PHP   9. do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/admin/class-wc-pdf-product-vouchers-admin-vouchers.php:136
+[24-May-2020 19:44:05 UTC] PHP  10. WP_Hook->do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/plugin.php:478
+[24-May-2020 19:44:05 UTC] PHP  11. WP_Hook->apply_filters() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:311
+[24-May-2020 19:44:05 UTC] PHP  12. WC_PDF_Product_Vouchers_Meta_Box_Voucher_Actions->save() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:287
+[24-May-2020 19:44:05 UTC] PHP  13. WC_Voucher->generate_pdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:226
+[24-May-2020 19:44:05 UTC] PHP  14. WC_PDF_Product_Vouchers_PDF_Generator::generate_voucher_pdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-voucher.php:2193
+[24-May-2020 19:44:05 UTC] PHP  15. WC_PDF_Product_Vouchers_PDF_Generator::load_dompdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-pdf-product-vouchers-pdf-generator.php:88
+[24-May-2020 19:44:05 UTC] PHP  16. Dompdf\Dompdf->__construct() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-pdf-product-vouchers-pdf-generator.php:50
+[24-May-2020 19:44:05 UTC] PHP  17. Dompdf\CanvasFactory::get_instance() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Dompdf.php:294
+[24-May-2020 19:44:05 UTC] PHP  18. Dompdf\Adapter\CPDF->__construct() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/CanvasFactory.php:57
+[24-May-2020 19:44:05 UTC] PHP  19. spl_autoload_call() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Adapter/CPDF.php:197
+[24-May-2020 19:44:05 UTC] PHP  20. Dompdf\Autoloader::autoload() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Adapter/CPDF.php:197
+[24-May-2020 19:44:05 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/lib/Cpdf.php on line 488
+[24-May-2020 19:44:05 UTC] PHP Stack trace:
+[24-May-2020 19:44:05 UTC] PHP   1. {main}() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/post.php:0
+[24-May-2020 19:44:05 UTC] PHP   2. edit_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/post.php:227
+[24-May-2020 19:44:05 UTC] PHP   3. wp_update_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/includes/post.php:409
+[24-May-2020 19:44:05 UTC] PHP   4. wp_insert_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/post.php:4244
+[24-May-2020 19:44:05 UTC] PHP   5. do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/post.php:4153
+[24-May-2020 19:44:05 UTC] PHP   6. WP_Hook->do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/plugin.php:478
+[24-May-2020 19:44:05 UTC] PHP   7. WP_Hook->apply_filters() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:311
+[24-May-2020 19:44:05 UTC] PHP   8. WC_PDF_Product_Vouchers_Admin_Vouchers->save() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:289
+[24-May-2020 19:44:05 UTC] PHP   9. do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/admin/class-wc-pdf-product-vouchers-admin-vouchers.php:136
+[24-May-2020 19:44:05 UTC] PHP  10. WP_Hook->do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/plugin.php:478
+[24-May-2020 19:44:05 UTC] PHP  11. WP_Hook->apply_filters() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:311
+[24-May-2020 19:44:05 UTC] PHP  12. WC_PDF_Product_Vouchers_Meta_Box_Voucher_Actions->save() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:287
+[24-May-2020 19:44:05 UTC] PHP  13. WC_Voucher->generate_pdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:226
+[24-May-2020 19:44:05 UTC] PHP  14. WC_PDF_Product_Vouchers_PDF_Generator::generate_voucher_pdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-voucher.php:2193
+[24-May-2020 19:44:05 UTC] PHP  15. WC_PDF_Product_Vouchers_PDF_Generator::load_dompdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-pdf-product-vouchers-pdf-generator.php:88
+[24-May-2020 19:44:05 UTC] PHP  16. Dompdf\Dompdf->__construct() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-pdf-product-vouchers-pdf-generator.php:50
+[24-May-2020 19:44:05 UTC] PHP  17. Dompdf\CanvasFactory::get_instance() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Dompdf.php:294
+[24-May-2020 19:44:05 UTC] PHP  18. Dompdf\Adapter\CPDF->__construct() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/CanvasFactory.php:57
+[24-May-2020 19:44:05 UTC] PHP  19. spl_autoload_call() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Adapter/CPDF.php:197
+[24-May-2020 19:44:05 UTC] PHP  20. Dompdf\Autoloader::autoload() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Adapter/CPDF.php:197
+[24-May-2020 19:44:05 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Css/Stylesheet.php on line 1354
+[24-May-2020 19:44:05 UTC] PHP Stack trace:
+[24-May-2020 19:44:05 UTC] PHP   1. {main}() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/post.php:0
+[24-May-2020 19:44:05 UTC] PHP   2. edit_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/post.php:227
+[24-May-2020 19:44:05 UTC] PHP   3. wp_update_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/includes/post.php:409
+[24-May-2020 19:44:05 UTC] PHP   4. wp_insert_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/post.php:4244
+[24-May-2020 19:44:05 UTC] PHP   5. do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/post.php:4153
+[24-May-2020 19:44:05 UTC] PHP   6. WP_Hook->do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/plugin.php:478
+[24-May-2020 19:44:05 UTC] PHP   7. WP_Hook->apply_filters() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:311
+[24-May-2020 19:44:05 UTC] PHP   8. WC_PDF_Product_Vouchers_Admin_Vouchers->save() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:289
+[24-May-2020 19:44:05 UTC] PHP   9. do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/admin/class-wc-pdf-product-vouchers-admin-vouchers.php:136
+[24-May-2020 19:44:05 UTC] PHP  10. WP_Hook->do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/plugin.php:478
+[24-May-2020 19:44:05 UTC] PHP  11. WP_Hook->apply_filters() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:311
+[24-May-2020 19:44:05 UTC] PHP  12. WC_PDF_Product_Vouchers_Meta_Box_Voucher_Actions->save() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:287
+[24-May-2020 19:44:05 UTC] PHP  13. WC_Voucher->generate_pdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:226
+[24-May-2020 19:44:05 UTC] PHP  14. WC_PDF_Product_Vouchers_PDF_Generator::generate_voucher_pdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-voucher.php:2193
+[24-May-2020 19:44:05 UTC] PHP  15. WC_PDF_Product_Vouchers_PDF_Generator::load_dompdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-pdf-product-vouchers-pdf-generator.php:88
+[24-May-2020 19:44:05 UTC] PHP  16. Dompdf\Dompdf->__construct() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-pdf-product-vouchers-pdf-generator.php:50
+[24-May-2020 19:44:05 UTC] PHP  17. spl_autoload_call() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Dompdf.php:296
+[24-May-2020 19:44:05 UTC] PHP  18. Dompdf\Autoloader::autoload() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Dompdf.php:296
+[24-May-2020 19:44:23 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Renderer/Text.php on line 141
+[24-May-2020 19:44:23 UTC] PHP Stack trace:
+[24-May-2020 19:44:23 UTC] PHP   1. {main}() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/post.php:0
+[24-May-2020 19:44:23 UTC] PHP   2. edit_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/post.php:227
+[24-May-2020 19:44:23 UTC] PHP   3. wp_update_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-admin/includes/post.php:409
+[24-May-2020 19:44:23 UTC] PHP   4. wp_insert_post() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/post.php:4244
+[24-May-2020 19:44:23 UTC] PHP   5. do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/post.php:4153
+[24-May-2020 19:44:23 UTC] PHP   6. WP_Hook->do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/plugin.php:478
+[24-May-2020 19:44:23 UTC] PHP   7. WP_Hook->apply_filters() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:311
+[24-May-2020 19:44:23 UTC] PHP   8. WC_PDF_Product_Vouchers_Admin_Vouchers->save() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:289
+[24-May-2020 19:44:23 UTC] PHP   9. do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/admin/class-wc-pdf-product-vouchers-admin-vouchers.php:136
+[24-May-2020 19:44:23 UTC] PHP  10. WP_Hook->do_action() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/plugin.php:478
+[24-May-2020 19:44:23 UTC] PHP  11. WP_Hook->apply_filters() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:311
+[24-May-2020 19:44:23 UTC] PHP  12. WC_PDF_Product_Vouchers_Meta_Box_Voucher_Actions->save() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-includes/class-wp-hook.php:287
+[24-May-2020 19:44:23 UTC] PHP  13. WC_Voucher->generate_pdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/admin/meta-boxes/class-wc-pdf-product-vouchers-meta-box-voucher-actions.php:226
+[24-May-2020 19:44:23 UTC] PHP  14. WC_PDF_Product_Vouchers_PDF_Generator::generate_voucher_pdf() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-voucher.php:2193
+[24-May-2020 19:44:23 UTC] PHP  15. Dompdf\Dompdf->render() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/includes/class-wc-pdf-product-vouchers-pdf-generator.php:170
+[24-May-2020 19:44:23 UTC] PHP  16. Dompdf\FrameDecorator\Page->reflow() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Dompdf.php:832
+[24-May-2020 19:44:23 UTC] PHP  17. Dompdf\FrameReflower\Page->reflow() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/FrameDecorator/AbstractFrameDecorator.php:894
+[24-May-2020 19:44:23 UTC] PHP  18. Dompdf\Renderer->render() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/FrameReflower/Page.php:148
+[24-May-2020 19:44:23 UTC] PHP  19. Dompdf\Renderer->render() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Renderer.php:196
+[24-May-2020 19:44:23 UTC] PHP  20. Dompdf\Renderer->render() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Renderer.php:196
+[24-May-2020 19:44:23 UTC] PHP  21. Dompdf\Renderer->render() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Renderer.php:196
+[24-May-2020 19:44:23 UTC] PHP  22. Dompdf\Renderer->render() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Renderer.php:196
+[24-May-2020 19:44:23 UTC] PHP  23. Dompdf\Renderer->_render_frame() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Renderer.php:108
+[24-May-2020 19:44:23 UTC] PHP  24. spl_autoload_call() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Renderer.php:265
+[24-May-2020 19:44:23 UTC] PHP  25. Dompdf\Autoloader::autoload() /home/argonlilac/Documents/Projects/Theyseemerollin/app/public/wp-content/plugins/woocommerce-pdf-product-vouchers/lib/dompdf/src/Renderer.php:265

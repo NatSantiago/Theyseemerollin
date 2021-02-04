@@ -1,0 +1,18 @@
+[20-May-2020 18:08:50] NOTICE: fpm is running, pid 15847
+[20-May-2020 18:08:50] NOTICE: ready to handle connections
+[20-May-2020 20:04:55] NOTICE: Terminating ...
+[20-May-2020 20:04:55] NOTICE: exiting, bye-bye!
+[21-May-2020 17:35:32] NOTICE: fpm is running, pid 11774
+[21-May-2020 17:35:32] NOTICE: ready to handle connections
+[21-May-2020 18:36:10] ERROR: Another FPM instance seems to already listen on /home/argonlilac/.config/Local/run/X-NseDybE/php/php-fpm.socket
+[21-May-2020 18:36:10] ERROR: FPM initialization failed
+[21-May-2020 18:36:10] ERROR: Another FPM instance seems to already listen on /home/argonlilac/.config/Local/run/X-NseDybE/php/php-fpm.socket
+[21-May-2020 18:36:10] ERROR: FPM initialization failed
+[21-May-2020 18:36:11] ERROR: Another FPM instance seems to already listen on /home/argonlilac/.config/Local/run/X-NseDybE/php/php-fpm.socket
+[21-May-2020 18:36:11] ERROR: FPM initialization failed
+[21-May-2020 18:36:11] ERROR: Another FPM instance seems to already listen on /home/argonlilac/.config/Local/run/X-NseDybE/php/php-fpm.socket
+[21-May-2020 18:36:11] ERROR: FPM initialization failed
+[24-May-2020 14:16:17] NOTICE: fpm is running, pid 9230
+[24-May-2020 14:16:17] NOTICE: ready to handle connections
+[24-May-2020 21:24:26] NOTICE: Terminating ...
+[24-May-2020 21:24:26] NOTICE: exiting, bye-bye!
